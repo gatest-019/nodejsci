@@ -27,9 +27,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: mocha
-          path: output.html
+          path:  /home/runner/work/quick-example-of-testing-in-nodejs/quick-example-of-testing-in-nodejs/reports/awesome-reports/mochawesome.html
       - name: Upload json output file
         uses: actions/upload-artifact@v3
         with:
-          name: mocha
-          path: output.json
+          name: mochajson
+          path:  /home/runner/work/quick-example-of-testing-in-nodejs/quick-example-of-testing-in-nodejs/reports/awesome-reports/mochawesome.json
